@@ -5,14 +5,14 @@
     padding: 2rem;
 }
 
-.ClientsSay div:nth-child(1) {
+.ClientsSayText {
     padding: 3rem 0 3rem 0;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.ClientsSay div p:nth-child(1) {
+.ClientsSayText p:nth-child(1) {
     border-top: 2px solid #E1B168;
     border-bottom: 2px solid #E1B168;
     padding: 0.5rem 0 0.5rem 0;
@@ -20,18 +20,99 @@
     color: white;
 }
 
-.ClientsSay div p:nth-child(2) {
+.ClientsSayText p:nth-child(2) {
     font-size: 2.5rem;
     font-weight: 300;
     color: white;
 }
 
-.ClientsSay div p:nth-child(3) {
+.ClientsSayText p:nth-child(3) {
     color: white;
     font-weight: 300;
 }
 
-
-.SwiperCard {
+.ClientsSaySwiper {
     width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 20rem;
+}
+
+.clientSlide {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    height: 50% !important;
+    width: 25rem !important;
+    margin-top: 3rem;
+    background-color: rgba(0, 0, 0, 0) !important;
+
+}
+
+.clientPhoto img:nth-child(1) {
+    position: relative;
+    left: 1.5rem;
+    bottom: 4.5rem;
+}
+
+.clientPhoto img:nth-child(2) {
+    width: 6rem;
+    height: 6rem;
+}
+
+.ClientData {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 2rem;
+    align-items: center;
+    align-self: start;
+}
+
+.clientInfo p:nth-child(1) {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.clientSlide hr {
+    border: none;
+    background: #5C6168;
+    height: 2px;
+    width: 95%;
+}
+
+.clientInfo p:nth-child(2) {
+    color: #E1B168;
+    font-weight: 300;
+}
+
+.clientComment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #343942;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.ClientsCommentData {
+    font-weight: 300;
+    color: white;
+}
+
+.swiper-pagination-bullet {
+    width: 0.8rem !important;
+    height: 0.8rem !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #FFFFFF !important;
+}
+
+.lamps {
+    width: 100%;
 }
