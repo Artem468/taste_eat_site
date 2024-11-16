@@ -1,0 +1,110 @@
+.Offers {
+    padding: 9rem 2rem 4rem 2rem;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.OffersTitle {
+    border-top: 1px solid #e1b168;
+    border-bottom: 1px solid #e1b168;
+    padding: 0.4rem;
+}
+
+.OffersUnderTitle {
+    padding: 1rem;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+.OffersDescription {
+    width: 30%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.OffersFood {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.FoodItem {
+    width: 40rem;
+    height: 21rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.FoodItem div {
+    width: 50%;
+}
+
+.FoodItem div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.price {
+    width: 10rem;
+}
+
+.priceText {
+    position: relative;
+    height: 0;
+    bottom: 5.5rem;
+    left: 0.5rem;
+    text-align: center;
+}
+
+.priceText p:nth-child(1) {
+    font-size: 1.4rem;
+}
+
+.priceText p:nth-child(2) {
+    font-size: 2rem;
+}
+
+.FoodItem:nth-child(1) {
+    background: url("assets/blueBG.png");
+}
+
+.FoodItem:nth-child(2) {
+    background: url("assets/greyBG.png");
+}
+
+.burger {
+    color: #292E36;
+}
+
+.pizza {
+    color: #FFFFFF;
+}
+
+.saleOffer {
+    text-align: center;
+    padding: 0.5rem;
+    border-top: 1px solid #292E36;
+    border-bottom: 1px solid #292E36;
+    width: 12rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.FoodName {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.FoodDescription {
+    font-size: 1.5rem;
+    font-weight: 300;
+}

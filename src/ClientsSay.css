@@ -115,4 +115,8 @@
 
 .lamps {
     width: 100%;
+    height: 51rem;
+}
+.lamps img {
+    width: 100%;
 }

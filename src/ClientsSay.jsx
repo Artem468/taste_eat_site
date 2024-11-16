@@ -47,7 +47,9 @@ function ClientsSay() {
                     }
                 </Swiper>
             </section>
-            <img className='lamps' src={lamps} alt=""/>
+            <div className='lamps'>
+                <img src={lamps} alt=""/>
+            </div>
         </>
     )
 }

@@ -1,0 +1,68 @@
+.PopularMenu {
+    padding: 1rem 2rem 5rem 2rem;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PopularMenuTitle {
+    border-top: 1px solid #e1b168;
+    border-bottom: 1px solid #e1b168;
+    padding: 0.4rem;
+}
+
+.PopularMenuUnderTitle {
+    padding: 1rem;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+.PopularMenuDescription {
+    width: 30%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.PopularMenuItems {
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.PopularMenuItem {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.PopularMenuItem div {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0.5rem;
+    justify-content: space-between;
+}
+
+.PopularMenuItem div p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.PopularMenuItemDesc {
+    padding: 1rem 0 1rem 0;
+    font-weight: 300;
+}
+
+.PopularMenu a {
+    text-decoration: none;
+    color: #e1b168;
+    width: 12rem;
+    height: 3rem;
+    border: 2px solid #e1b168;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
