@@ -1,0 +1,111 @@
+.Dishes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Dishes div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 30%;
+    padding: 2rem;
+}
+
+.Dishes div:nth-child(1) img {
+    width: 17rem;
+}
+
+.Dishes div:nth-child(1) button {
+    width: 10rem;
+    height: 3rem;
+    border: 2px solid #E1B168;
+    color: #E1B168;
+    background: transparent;
+}
+
+.Dishes div:nth-child(1) p:nth-child(1) {
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+    width: 3rem;
+    padding: 0.3rem;
+}
+
+.Dishes div:nth-child(1) p:nth-child(2) {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.Dishes div:nth-child(1) p:nth-child(3) {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.Dishes div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.Dishes datalist {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 2rem 0;
+}
+
+#dishesName {
+    padding: 2rem 0 2rem 0;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.Dishes datalist data {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Dishes datalist data div {
+    display: flex;
+    flex-direction: row !important;
+    width: 100% !important;
+    padding: 0 !important;
+    gap: 2rem;
+}
+
+.Dishes datalist data div img {
+    width: 4rem !important;
+    height: 4rem !important;
+}
+
+.Dishes datalist data div div {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0 !important;
+}
+
+.Dishes datalist data div p {
+    border: none !important;
+    font-weight: 400 !important;
+    width: 100% !important;
+}
+
+.DishItem p:nth-child(1) {
+    font-size: 1.4rem !important;
+}
+
+.DishItem p:nth-child(2) {
+    font-size: 1rem !important;
+}
+
+.DishItem p:nth-child(3) {
+    display: flex;
+    align-self: center;
+}
+
+datalist {
+    display: flex;
+}

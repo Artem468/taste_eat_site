@@ -1,0 +1,64 @@
+header {
+    padding: 1rem 0 0 0;
+    background: #292E36;
+    width: 100%;
+}
+
+header section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+}
+
+header section img {
+    width: 15rem;
+}
+
+header section button:nth-child(1) {
+    border: 2px solid #E1B168;
+    background: transparent;
+    width: 12rem;
+    height: 3rem;
+    color: white;
+}
+
+header section button:nth-child(3) {
+    background: #E1B168;
+    color: #292E36;
+    width: 12rem;
+    height: 3rem;
+    border: none;
+}
+
+header hr {
+    background: #5C6168;
+    height: 1px;
+    border: none;
+}
+
+header nav {
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav div:nth-child(1) {
+    padding: 0 2rem 0 2rem;
+    display: flex;
+    gap: 5rem;
+}
+
+header nav div:nth-child(2) {
+    padding: 0 2rem 0 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}

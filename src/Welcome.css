@@ -1,0 +1,42 @@
+.Welcome {
+    background: #292E36;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Welcome div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.Welcome div button {
+    width: 12rem;
+    height: 3rem;
+    border: 2px solid #E1B168;
+    color: #E1B168;
+    background: transparent;
+}
+
+.Welcome div p:nth-child(1) {
+    font-weight: 200;
+    font-size: 6rem;
+    color: white;
+}
+
+.Welcome div p:nth-child(2) {
+    font-size: 1rem;
+    color: white;
+}
+
+.Welcome div:nth-child(2) {
+    padding: 0 2rem 0 2rem;
+}
+
+.Welcome div img {
+    width: 40rem;
+}
