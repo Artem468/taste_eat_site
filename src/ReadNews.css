@@ -1,0 +1,111 @@
+.ReadNews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 7rem 1rem 4rem 1rem;
+}
+
+.ReadNews > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    width: 80%;
+}
+
+.ReadNewsTitleContainer {
+    display: flex;
+    flex-direction: row !important;
+    gap: 1rem;
+    padding: 0 2rem 0 2rem;
+}
+
+.ReadNewsTitle {
+    padding: 0.3rem;
+    border-bottom: 2px solid #e1b168;
+    border-top: 2px solid #e1b168;
+    text-align: center;
+    font-weight: 300;
+    width: 7rem;
+    height: 1rem;
+}
+
+.LinkWithBGName  {
+    padding: 0 2rem 0 2rem;
+}
+
+.ReadNews > p:nth-child(1) {
+    padding: 0.3rem;
+    border-bottom: 2px solid #e1b168;
+    border-top: 2px solid #e1b168;
+    width: 3rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.ReadNews > p:nth-child(2) {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.ReadNews > p:nth-child(3) {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    width: 30%;
+}
+
+.LinkWithBG {
+    width: 40rem;
+    height: 24rem;
+}
+
+.NewsLeft {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./assets/NewsLeft.svg");
+}
+
+.NewsRight {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./assets/NewsRight.svg");
+}
+
+.LinkWithBG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LinkWithBG a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e1b168;
+    color: #292E36;
+    width: 10rem;
+    height: 3rem;
+}
+
+.NewsItem {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40rem;
+    border: 1px solid #5C6168;
+}
+
+.NewsItem > p:nth-child(3) {
+    font-size: 1.7rem;
+    font-weight: 300;
+    width: 80%;
+}
+
+.NewsItem > p:nth-child(4) {
+    font-size: 1.3rem;
+    font-weight: 300;
+    width: 80%;
+    padding: 0 2rem 2rem 2rem !important;
+}
+

@@ -7,6 +7,9 @@ import ClientsSay from "./ClientsSay.jsx";
 import Offers from "./Offers.jsx";
 import PopularMenu from "./PopularMenu.jsx";
 import GreatService from "./GreatService.jsx";
+import ReadNews from "./ReadNews.jsx";
+import BookTable from "./BookTable.jsx";
+import Footer from "./Footer.jsx";
 
 
 function App() {
@@ -20,6 +23,9 @@ function App() {
             <Offers/>
             <PopularMenu/>
             <GreatService/>
+            <ReadNews/>
+            <BookTable/>
+            <Footer/>
         </>
     )
 }
